@@ -1,0 +1,74 @@
+:root{
+    --backgColor: #202024;
+    --inputBackColor: #121214;
+    --textColor: #FFFFFF;
+    --iconsColor: #8257E5;
+    --iconsColorHover: #A883FF;
+}
+body{
+    background-color: var(--inputBackColor);
+    width: 100vw;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: var(--backgColor);
+    border-radius: 5px;
+}
+
+/* TITULO */
+
+form .title h1{
+    padding: 60px 0 30px 60px;
+    color: var(--textColor);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* CAMPOS DE DADOS */
+
+form .dataContainer .dataInput{
+    padding: 0 60px 10px 60px;
+}
+form .dataContainer .dataInput input{
+    width: 328px;
+    height: 50px;
+    border: 2px solid #121214;
+    background-color: var(--inputBackColor);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--textColor);
+    padding-left: 10px;
+}
+form .dataContainer .dataInput input:hover{
+    border-color: var(--iconsColor);
+}
+
+/* Button */
+
+form .btnCadastrar{
+    padding: 0 60px 40px 60px;
+}
+form .btnCadastrar input{
+    width: 343px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--textColor);
+    font-weight: 700;
+    background-color: var(--iconsColor);
+    border: 2px solid #8257E5;
+    border-radius: 5px;
+}
+form .btnCadastrar input:hover{
+    cursor: pointer;
+    background-color: var(--iconsColorHover);
+    border: 2px solid #A883FF;
+}

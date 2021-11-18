@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Crie sua conta</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="POST">
+            <div class="title">
+                <h1>Crie sua conta</h1>
+            </div>
+            <div class="dataContainer">
+                <div class="dataInput">
+                    <input type="email" name="email" id="email" placeholder="Seu E-mail" maxlength="50" required>
+                </div>
+                <div class="dataInput">
+                    <input type="text" name="firstName" id="firstName" placeholder="Seu nome" maxlength="40" required>
+                </div>
+                <div class="dataInput">
+                    <input type="number" name="cpf" id="cpf" placeholder="Seu CPF" maxlength="11" required>
+                </div>
+                <div class="dataInput">
+                    <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone" maxlength="11" required>
+                </div>
+                <div class="dataInput">
+                    <input type="date" name="dataNasc" id="dataNasc" placeholder="Sua data de nascimento" required>
+                </div>
+                <div class="dataInput">
+                    <input type="password" name="senha" id="senha" placeholder="Sua senha" maxlength="8" required>
+                </div>
+                <div class="dataInput">
+                    <input type="password" name="repeteSenha" id="repeteSenha" placeholder="Confirme sua senha" maxlength="8" required>
+                </div>
+            </div>
+            <div class="btnCadastrar">
+                <input type="submit" value="CADASTRAR">
+            </div>
+        </form>
+    </div>
+    <script src="js/validateJsPuro.js"></script>
+</body>
+</html>
