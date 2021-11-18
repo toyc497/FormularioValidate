@@ -50,6 +50,11 @@ form .dataContainer .dataInput input{
 form .dataContainer .dataInput input:hover{
     border-color: var(--iconsColor);
 }
+form .dataContainer .dataInput .msgError{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--iconsColor);
+}
 
 /* Button */
 

@@ -20,24 +20,31 @@
             <div class="dataContainer">
                 <div class="dataInput">
                     <input type="email" name="email" id="email" placeholder="Seu E-mail" maxlength="50" required>
+                    <span class="msgError msgEmail"><br></span>
                 </div>
                 <div class="dataInput">
-                    <input type="text" name="firstName" id="firstName" placeholder="Seu nome" maxlength="40" required>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome" maxlength="40" required>
+                    <span class="msgError msgNome"><br></span>
                 </div>
                 <div class="dataInput">
                     <input type="number" name="cpf" id="cpf" placeholder="Seu CPF" maxlength="11" required>
+                    <span class="msgError msgCPF"><br></span>
                 </div>
                 <div class="dataInput">
-                    <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone" maxlength="11" required>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone" minlength="11" maxlength="11" required>
+                    <span class="msgError msgTelef"><br></span>
                 </div>
                 <div class="dataInput">
                     <input type="date" name="dataNasc" id="dataNasc" placeholder="Sua data de nascimento" required>
+                    <span class="msgError msgDtNasc"><br></span>
                 </div>
                 <div class="dataInput">
-                    <input type="password" name="senha" id="senha" placeholder="Sua senha" maxlength="8" required>
+                    <input type="password" name="senha" id="senha" placeholder="Sua senha" minlength="8" maxlength="8" required>
+                    <span class="msgError msgSenha"><br></span>
                 </div>
                 <div class="dataInput">
-                    <input type="password" name="repeteSenha" id="repeteSenha" placeholder="Confirme sua senha" maxlength="8" required>
+                    <input type="password" name="repeteSenha" id="repeteSenha" placeholder="Confirme sua senha" minlength="8" maxlength="8" required>
+                    <span class="msgError msgRepSenha"><br></span>
                 </div>
             </div>
             <div class="btnCadastrar">
